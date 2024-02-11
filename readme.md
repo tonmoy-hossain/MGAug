@@ -1,7 +1,7 @@
 # MGAug
 MGAug: Multimodal Geometric Augmentation in Latent Spaces of Image Deformations
 
-This repository provides the PyTorch implementation of the paper, [MGAug: Multimodal Geometric Augmentation in Latent Spaces of Image Deformations] (https://arxiv.org/abs/2312.13440)
+This repository provides the PyTorch implementation of the paper, [MGAug: Multimodal Geometric Augmentation in Latent Spaces of Image Deformations](https://arxiv.org/abs/2312.13440)
 
 ## Abstract
 
