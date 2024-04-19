@@ -8,7 +8,21 @@ Geometric transformations have been widely used to augment the size of training 
 
 ![MGAug Network](MGAug_architecture.png)
 
+## Setup
+* matplotlib
+* torch
+* torchvision
+* SimpleITK
+* yaml
+* easydict
+* numpy
+* scikit-learn
+* lagomorph
 
+To install the lagomorph, please direct to [https://github.com/jacobhinkle/lagomorph](https://github.com/jacobhinkle/lagomorph)
+```
+pip install lagomorph
+```
 
 ## References
 This code is only for research purposes and non-commercial use only, and we request you to cite our research paper if you use it:
