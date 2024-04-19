@@ -23,7 +23,7 @@ To install the lagomorph, please direct to [https://github.com/jacobhinkle/lagom
 
 
 ## Training
-For training, please run the training.py python file. To easily execute and understand different blocks of the complete network architecture, a jupyter notebook version is also provided. Please refer to the MGAug.ipynb.  
+For training, please run the *training.py python* file. To easily execute and understand different blocks of the complete network architecture, a jupyter notebook version is also provided. Please refer to the *MGAug.ipynb*.  
 
 ## References
 This code is only for research purposes and non-commercial use only, and we request you to cite our research paper if you use it:
