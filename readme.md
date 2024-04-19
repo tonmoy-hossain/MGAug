@@ -10,7 +10,7 @@ Geometric transformations have been widely used to augment the size of training 
 
 
 
-* References
+## References
 This code is only for research purposes and non-commercial use only, and we request you to cite our research paper if you use it:
 [MGAug: Multimodal Geometric Augmentation in Latent Spaces of Image Deformations](https://arxiv.org/abs/2312.13440)
 
