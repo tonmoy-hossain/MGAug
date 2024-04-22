@@ -122,7 +122,6 @@ class Epdiff():
                 if i<(num_steps-1):
                     m_seq.append(m); v_seq.append(v)
 
-
         return u_seq, ui_seq, v_seq
     
 
