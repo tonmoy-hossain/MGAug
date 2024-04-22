@@ -3,8 +3,8 @@ study:
 
 data:
     predict: '2D'
-    x: 128
-    y: 128
+    x: 64
+    y: 64
     z: 1
 
 model:
@@ -20,9 +20,7 @@ model:
     kernel_K: False
 
 solver:
-    lr: 0.001
-    epochs: 500
-    batch_size: 10
+    lr: 0.0001
+    epochs: 20
+    batch_size: 20
     weight_decay: 0.0001
-    alpha: .2
-    beta: 0.000001
