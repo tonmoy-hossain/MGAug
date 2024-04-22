@@ -275,7 +275,7 @@ class Unet(nn.Module):
         self.metric = lm.FluidMetric(self.fluid_params)
 
         self.losses = LossFunctions()
-        self.model = GMVAENet(32*8*8, 64, 2).to("cuda")
+        self.model = GMVAENet(32*8*8, 64, 10).to("cuda")
         
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         src = x[:,0,:,:].unsqueeze(1)
