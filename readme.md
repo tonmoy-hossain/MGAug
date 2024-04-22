@@ -23,8 +23,12 @@ To install the lagomorph, please direct to [https://github.com/jacobhinkle/lagom
 
 
 ## Training
-* For training, please run the *training.py* python file. To easily execute and understand different blocks of the complete network architecture, a jupyter notebook version is also provided. Please refer to the *MGAug.ipynb*.
-* To train the model from scratch on a 2D/3D dataset, define the 2D/3D regularizer function. Both of the regularizers are already provided in the loss_Reg function; please use them accordingly. Edit the *parameters.yml* file accordingly for the 3D setup, for example, change the z dimension, and set the predict variable to '3D'. 
+* To train the MGAug along with a classifier, please run the *MGAug_training.ipynb* file. This notebook version is designed to facilitate the execution and understanding of different blocks of the complete network architecture.
+* To only train the MGAug, please run the *MGAug_training_disjoint.ipynb* file. This involves training the MGAug first and then training the classifier separately.
+* To train the MGAug on 2D/3D datasets, define the 2D/3D regularizer function. Both regularizers are already provided in the loss_Reg function; please use them accordingly. Adjust the *parameters.yml* file as needed for the 3D setup, such as changing the z dimension, and set the predict variable to '3D'.
+
+## Testing
+* Although we conducted testing in the training files, we have also provided a separate *testing.ipynb* file to load pre-trained models and visualize the augmentations and results.
 
 ## References
 This code is only for research purposes and non-commercial use only, and we request you to cite our research paper if you use it:
