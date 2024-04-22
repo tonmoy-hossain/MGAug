@@ -21,6 +21,9 @@ Geometric transformations have been widely used to augment the size of training 
 
 To install the lagomorph, please direct to [https://github.com/jacobhinkle/lagomorph](https://github.com/jacobhinkle/lagomorph)
 
+## Dataset and pre-trained models
+* We have provided training and testing samples of the MNIST dataset in the *datasets.zip* file, and for consistency, we used these samples for both training and testing.
+* We have included some pre-trained models for visualizing the augmentations of our model, as well as for viewing classification results.
 
 ## Training
 * To train the MGAug along with a classifier, please run the *MGAug_training.ipynb* file. This notebook version is designed to facilitate the execution and understanding of different blocks of the complete network architecture.
